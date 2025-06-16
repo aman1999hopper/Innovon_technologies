@@ -18,6 +18,3 @@ app.post('/get-users', (req, res) => {
         user: users
     });
 })
-
-
-// shravani.siripuram@innovontek.com
