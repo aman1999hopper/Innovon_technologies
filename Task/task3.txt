@@ -1,0 +1,9 @@
+// Sample Table: employees
+// Columns: id (INT), name (VARCHAR), department (VARCHAR), salary (INT)
+// 3. Employee Filter
+// Write a SQL query to fetch names of employees who work in the "Engineering" department and earn more than 50,000.
+
+SELECT name
+FROM employees
+WHERE department = 'Engineering'
+    AND salary > 50000; 

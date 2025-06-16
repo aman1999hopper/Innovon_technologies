@@ -1,0 +1,9 @@
+// Sample Table: orders
+// Columns: order_id (INT), customer_id (INT), amount (FLOAT)
+// 4. Total Order Amount
+// Write a SQL query to find the total order amount per customer.
+// Expected Output: customer_id, total_amount
+
+SELECT customer_id, SUM(amount) AS total_amount
+FROM orders
+GROUP BY customer_id;
